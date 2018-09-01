@@ -72,4 +72,5 @@ class NoticiaController < ApplicationController
       params.require(:noticium).permit(:autor, :avatar, :fecha, :imagen, :resumen,:titulo,:likes,:url)
     end
     
+    
 end
