@@ -22,6 +22,11 @@
   </div>
 
   <div class="field">
+    <%= form.label :titulo %>
+    <%= form.text_field :titulo %>
+  </div>
+
+  <div class="field">
     <%= form.label :fecha %>
     <%= form.datetime_select :fecha %>
   </div>
@@ -34,6 +39,11 @@
   <div class="field">
     <%= form.label :resumen %>
     <%= form.text_area :resumen %>
+  </div>
+
+    <div class="field">
+    <%= form.label :likes %>
+    <%= form.number_field :likes %>
   </div>
 
   <div class="actions">

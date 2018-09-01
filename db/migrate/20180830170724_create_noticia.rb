@@ -4,9 +4,10 @@ class CreateNoticia < ActiveRecord::Migration[5.2]
       t.string :autor
       t.string :avatar
       t.datetime :fecha
+      t.string :titulo
+      t.integer :likes
       t.string :imagen
       t.text :resumen
-
       t.timestamps
     end
   end
