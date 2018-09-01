@@ -41,10 +41,15 @@
     <%= form.text_area :resumen %>
   </div>
 
-    <div class="field">
+<div class="field">
     <%= form.label :likes %>
     <%= form.number_field :likes %>
-  </div>
+</div>
+
+<div class="field">
+    <%= form.label :url %>
+    <%= form.text_field :url %>
+</div>
 
   <div class="actions">
     <%= form.submit %>
