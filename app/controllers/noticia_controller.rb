@@ -69,7 +69,7 @@ class NoticiaController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def noticium_params
-      params.require(:noticium).permit(:autor, :avatar, :fecha, :imagen, :resumen,:titulo,:likes,:url)
+      params.require(:noticium).permit(:autor, :avatar, :fecha, :imagen, :resumen,:titulo,:likes, :sitio_web)
     end
     
     
